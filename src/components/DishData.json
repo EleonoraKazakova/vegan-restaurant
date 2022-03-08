@@ -1,0 +1,289 @@
+{
+  "dishes": [
+    { "dishes.img": "dish.jpg" },
+    {
+      "id": "0",
+      "name": "Vegan pizza",
+      "imgProject": "pizza.jpg",
+      "description": "Tasty pizza with vegetables and vegan cheese.",
+      "ingredients": [
+        "artichoke",
+        "avocado",
+        "tomatoes",
+        "red pepper",
+        "mushrooms",
+        "vegan cheese"
+      ],
+      "nutritionFacts": {
+        "servingSize": "500g",
+        "calories": 300,
+        "caloriesFromFat": 100,
+        "TotalFat": ["15mg", "10%"],
+        "SaturatedFat": ["9mg", "5%"],
+        "Cholesterol": ["20mg", "7%"],
+        "Sodium": ["350mg", "15%"],
+        "TotalCarbohydrate": ["21g", "7%"],
+        "DietaryFiber": ["1g", "4%"],
+        "Sugars": "5mg",
+        "Protein": "10mg"
+      }
+    },
+    {
+      "id": "1",
+      "name": "Vegan sandwich",
+      "imgProject": "sandwich.jpg",
+      "description": "Tasty sandwich with vegan humburger, fresh vegetables and crispy bread.",
+      "ingredients": [
+        "cucumber",
+        "beans",
+        "avocado",
+        "tomatoes",
+        "red pepper",
+        "salad",
+        "vegan cheese"
+      ],
+      "nutritionFacts": {
+        "servingSize": "200g",
+        "calories": 200,
+        "caloriesFromFat": 70,
+        "TotalFat": ["10mg", "8%"],
+        "SaturatedFat": ["8mg", "4%"],
+        "Cholesterol": ["15mg", "5%"],
+        "Sodium": ["250mg", "10%"],
+        "TotalCarbohydrate": ["15g", "5%"],
+        "DietaryFiber": ["1g", "4%"],
+        "Sugars": "1mg",
+        "Protein": "5mg"
+      }
+    },
+    {
+      "id": "2",
+      "name": "Vegan salad",
+      "imgProject": "salad.jpg",
+      "description": "Tasty salad with fresh vegetables and boiled potato.",
+      "ingredients": [
+        "cucumber",
+        "corn",
+        "avocado",
+        "tomatoes",
+        "salad",
+        "potato",
+        "mushrooms",
+        "eggplants"
+      ],
+      "nutritionFacts": {
+        "servingSize": "350g",
+        "calories": 250,
+        "caloriesFromFat": 90,
+        "TotalFat": ["9mg", "9%"],
+        "SaturatedFat": ["11mg", "6%"],
+        "Cholesterol": ["18mg", "8%"],
+        "Sodium": ["350mg", "15%"],
+        "TotalCarbohydrate": ["25g", "15%"],
+        "DietaryFiber": ["2g", "6%"],
+        "Sugars": "2mg",
+        "Protein": "7mg"
+      }
+    },
+    {
+      "id": "3",
+      "name": "Vegan hot potato",
+      "imgProject": "popato.jpg",
+      "description": "Tasty dish with potato, vegan sauce and stewed vegetables.",
+      "ingredients": [
+        "popato",
+        "broccoli",
+        "tomatoes",
+        "zucchini",
+        "red pepper",
+        "mushrooms"
+      ],
+      "nutritionFacts": {
+        "servingSize": "350g",
+        "calories": 250,
+        "caloriesFromFat": 90,
+        "TotalFat": ["9mg", "9%"],
+        "SaturatedFat": ["11mg", "6%"],
+        "Cholesterol": ["18mg", "8%"],
+        "Sodium": ["350mg", "15%"],
+        "TotalCarbohydrate": ["25g", "15%"],
+        "DietaryFiber": ["2g", "6%"],
+        "Sugars": "2mg",
+        "Protein": "7mg"
+      }
+    }
+  ],
+  "desserts": [
+    { "desserts.img": "dessert.jpg" },
+    {
+      "id": "0",
+      "name": "Vegan cheesecake",
+      "imgProject": "cheesecake.jpg",
+      "description": "Delicious cheesecake with fruits and vegan cream.",
+      "ingredients": ["strawberry", "vegan cream", "nuts", "flour", "sugar"],
+      "nutritionFacts": {
+        "servingSize": "150g",
+        "calories": 200,
+        "caloriesFromFat": 150,
+        "TotalFat": ["25mg", "15%"],
+        "SaturatedFat": ["11mg", "8%"],
+        "Cholesterol": ["25mg", "9%"],
+        "Sodium": ["150mg", "10%"],
+        "TotalCarbohydrate": ["28g", "17%"],
+        "DietaryFiber": ["5g", "10%"],
+        "Sugars": "35mg",
+        "Protein": "20mg"
+      }
+    },
+    {
+      "id": "1",
+      "name": "Vegan chokolate cake",
+      "imgProject": "chokolateCake.jpg",
+      "description": "Delicious chokolate cake with chokolate, fruits, nuts and vegan cream.",
+      "ingredients": ["cocao", "cherry", "vegan cream", "flour", "sugar"],
+      "nutritionFacts": {
+        "servingSize": "250g",
+        "calories": 190,
+        "caloriesFromFat": 60,
+        "TotalFat": ["9mg", "7%"],
+        "SaturatedFat": ["7mg", "3%"],
+        "Cholesterol": ["13mg", "4%"],
+        "Sodium": ["230mg", "9%"],
+        "TotalCarbohydrate": ["13g", "3%"],
+        "DietaryFiber": ["2g", "3%"],
+        "Sugars": "3mg",
+        "Protein": "7mg"
+      }
+    },
+    {
+      "id": "2",
+      "name": "Vegan fruit cake",
+      "imgProject": "fruitCake.jpg",
+      "description": "Delicious fruit cake with berries, fruits and vegan cream.",
+      "ingredients": ["cherry", "bananas", "flour", "sugar"],
+      "nutritionFacts": {
+        "servingSize": "250g",
+        "calories": 210,
+        "caloriesFromFat": 80,
+        "TotalFat": ["12mg", "11%"],
+        "SaturatedFat": ["13mg", "8%"],
+        "Cholesterol": ["16mg", "7%"],
+        "Sodium": ["220mg", "12%"],
+        "TotalCarbohydrate": ["22g", "13%"],
+        "DietaryFiber": ["3g", "5%"],
+        "Sugars": "6mg",
+        "Protein": "9mg"
+      }
+    },
+    {
+      "id": "3",
+      "name": "Vegan fruit salad",
+      "imgProject": "fruitSalad.jpg",
+      "description": "Delicious fruit salad with berries, nuts, fruits and flake.",
+      "ingredients": ["cherry", "bananas", "flour", "sugar"],
+      "nutritionFacts": {
+        "servingSize": "300g",
+        "calories": 250,
+        "caloriesFromFat": 90,
+        "TotalFat": ["9mg", "10%"],
+        "SaturatedFat": ["15mg", "9%"],
+        "Cholesterol": ["19mg", "8%"],
+        "Sodium": ["260mg", "16%"],
+        "TotalCarbohydrate": ["35g", "20%"],
+        "DietaryFiber": ["10g", "9%"],
+        "Sugars": "5mg",
+        "Protein": "10mg"
+      }
+    }
+  ],
+  "drinks": [
+    { "drinks.img": "drincs.jpg" },
+    {
+      "id": "0",
+      "name": "Vegan chocolate coctail",
+      "imgProject": "chocolateCoctail.jpg",
+      "description": "Yummy chocolate coctail with berries, fruits and vegan milk.",
+      "ingredients": [
+        "vegan milk",
+        "cocao",
+        "banana",
+        "chery",
+        "strawberry",
+        "orange"
+      ],
+      "nutritionFacts": {
+        "servingSize": "250g",
+        "calories": 110,
+        "caloriesFromFat": 70,
+        "TotalFat": ["12mg", "6%"],
+        "SaturatedFat": ["7mg", "4%"],
+        "Cholesterol": ["18mg", "6%"],
+        "Sodium": ["200mg", "12%"],
+        "TotalCarbohydrate": ["18g", "5%"],
+        "DietaryFiber": ["3g", "3%"],
+        "Sugars": "4mg",
+        "Protein": "5mg"
+      }
+    },
+    {
+      "id": "1",
+      "name": "Vegan coctail",
+      "imgProject": "coctail.jpg",
+      "description": "Yummy coctail with fruits and vegan milk.",
+      "ingredients": ["vegan milk", "banana", "orange", "apple"],
+      "nutritionFacts": {
+        "servingSize": "250g",
+        "calories": 100,
+        "caloriesFromFat": 70,
+        "TotalFat": ["6mg", "6%"],
+        "SaturatedFat": ["3mg", "3%"],
+        "Cholesterol": ["16mg", "4%"],
+        "Sodium": ["200mg", "7%"],
+        "TotalCarbohydrate": ["25g", "15%"],
+        "DietaryFiber": ["5g", "5%"],
+        "Sugars": "7mg",
+        "Protein": "6mg"
+      }
+    },
+    {
+      "id": "2",
+      "name": "Vegan fruit coktail",
+      "imgProject": "fruitCoktail.jpg",
+      "description": "Yummy fruit coktail with berries, fruits and vegan milk.",
+      "ingredients": ["vegan milk", "banana", "chery", "apple", "orange"],
+      "nutritionFacts": {
+        "servingSize": "250g",
+        "calories": 150,
+        "caloriesFromFat": 80,
+        "TotalFat": ["7mg", "8%"],
+        "SaturatedFat": ["10mg", "7%"],
+        "Cholesterol": ["16mg", "9%"],
+        "Sodium": ["150mg", "10%"],
+        "TotalCarbohydrate": ["20g", "10%"],
+        "DietaryFiber": ["4g", "5%"],
+        "Sugars": "6mg",
+        "Protein": "8mg"
+      }
+    },
+    {
+      "id": "3",
+      "name": "Vegan yogurt",
+      "imgProject": "yogurt.jpg",
+      "description": "Yummy yogurt with fruits and vegan yogurt.",
+      "ingredients": ["vegan yogurt", "banana", "strawberry", "orange"],
+      "nutritionFacts": {
+        "servingSize": "200g",
+        "calories": 120,
+        "caloriesFromFat": 70,
+        "TotalFat": ["6mg", "5%"],
+        "SaturatedFat": ["10mg", "7%"],
+        "Cholesterol": ["15mg", "7%"],
+        "Sodium": ["150mg", "12%"],
+        "TotalCarbohydrate": ["22g", "12%"],
+        "DietaryFiber": ["5g", "4%"],
+        "Sugars": "7mg",
+        "Protein": "9mg"
+      }
+    }
+  ]
+}
