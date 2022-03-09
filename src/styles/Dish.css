@@ -1,0 +1,29 @@
+.dish-table-text {
+  font-weight: bold;
+}
+
+th,
+td {
+  border-bottom: 1px solid var(--swatch-light-brown);
+}
+
+.dish-content-block {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 800px;
+  align-items: center;
+  padding: 40px 0 40px 0;
+  gap: 20px;
+}
+
+.dish-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dish-ingredient {
+  color: var(--swatsh-dark-green);
+  font-weight: 600;
+}

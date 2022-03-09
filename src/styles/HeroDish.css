@@ -1,0 +1,57 @@
+.hero-content-cheesecake {
+  background-image: url("../pictures/desserts/cheesecake.jpg");
+}
+
+.hero-content-chocolateCake {
+  background-image: url("../pictures/desserts/chocolateCake.jpg");
+}
+
+.hero-content-fruitCake {
+  background-image: url("../pictures/desserts/fruitCake.jpg");
+}
+
+.hero-content-fruitSalad {
+  background-image: url("../pictures/desserts/fruitSalad.jpg");
+}
+
+.hero-content-pizza {
+  background-image: url("../pictures/dishes/pizza.jpg");
+}
+
+.hero-content-potato {
+  background-image: url("../pictures/dishes/potato.jpg");
+}
+
+.hero-content-salad {
+  background-image: url("../pictures/dishes/salad.jpg");
+}
+
+.hero-content-sandwich {
+  background-image: url("../pictures/dishes/sandwich.jpg");
+}
+
+.hero-content-fruitCoktail {
+  background-image: url("../pictures/drinks/fruitCoktail.jpg");
+}
+
+.hero-content-yogurt {
+  background-image: url("../pictures/drinks/yogurt.jpg");
+}
+
+.hero-content-chocolateCocktail {
+  background-image: url("../pictures/drinks/chocolateCocktail.jpg");
+}
+
+.hero-content-cocktail {
+  background-image: url("../pictures/drinks/cocktail.jpg");
+}
+
+.hero-content {
+  background-position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+}

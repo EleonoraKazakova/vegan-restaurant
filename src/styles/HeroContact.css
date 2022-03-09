@@ -1,0 +1,10 @@
+.hero-content-contact {
+  background-image: url("../pictures/contact.jpg");
+  background-position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+}

@@ -1,0 +1,21 @@
+.hero-content-dishes {
+  background-image: url("../pictures/homePage/dish.jpg");
+}
+
+.hero-content-desserts {
+  background-image: url("../pictures/homePage/dessert.jpg");
+}
+
+.hero-content-drinks {
+  background-image: url("../pictures/homePage/drinks.jpg");
+}
+
+.hero-content {
+  background-position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+}

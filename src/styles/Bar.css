@@ -4,10 +4,19 @@
   gap: 30px;
   align-items: center;
   background-color: black;
-  color: yellow;
+  color: rgb(238, 255, 236);
   position: fixed;
   top: 0;
   width: 100%;
   height: 60px;
   z-index: 3;
+}
+
+.bar-image {
+  width: 35px;
+}
+
+.bar-link {
+  color: #d0f6aa;
+  text-decoration: none;
 }

@@ -2,7 +2,11 @@ import "./styles/App.css";
 import Hero from "./components/Hero";
 import Bar from "./components/Bar";
 import Footer from "./components/Footer";
-import Menu from "./components/Section";
+import HomePage from "./components/HomePage";
+import Section from "./components/Section";
+import Dish from "./components/Dish";
+import Contact from "./components/Contact";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
@@ -10,14 +14,15 @@ function App() {
       <header className="app-header">
         <Bar />
       </header>
-      <section className="app-section-hero">
-        <Hero />
-      </section>
-      <section className="app-section-menu-background"></section>
-      <section className="app-section-menu">
-        <Menu />
-      </section>
 
+      <section className="app-section-menu">
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/section/:section" element={<Section />} />
+          <Route path="/section/:section/:dish" element={<Dish />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </section>
       <footer className="app-footer">
         <Footer />
       </footer>

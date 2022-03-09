@@ -1,41 +1,42 @@
-import "../styles/Menu.css";
+import "../styles/Section.css";
+import "../styles/base/button.css";
+import { useParams, useNavigate } from "react-router-dom";
+import DishData from "./DishData.json";
+import HeroSection from "./HeroSection";
 
-export default function Menu() {
+export default function Section() {
+  const history = useNavigate();
+  function toggleSection(dish) {
+    history(`/section/${params.section}/${dish}`);
+  }
+
+  const params = useParams();
+  const dishSection = Object.values(DishData[params.section]).map((dish) => (
+    <div key={dish.id} className="section-content">
+      <img
+        src={require(`../pictures/${params.section}/${dish.imgProject}.jpg`)}
+        className="section-image"
+        alt=""
+      />
+      <span className="section-text-grid">
+        <span className="section-text-content">
+          <h4>{dish.title}</h4>
+          <p className="section-text">{dish.description}</p>
+          <button
+            onClick={() => toggleSection(dish.webTitle)}
+            className="button"
+          >
+            See more
+          </button>
+        </span>
+      </span>
+    </div>
+  ));
+  console.log("dishSection:", dishSection);
   return (
-    <div className="menu-content">
-      <p>
-        AutoText works in any program You may know the Autotext feature of MS
-        Office. The advantage of Jitbit Autotext is that it provides same
-        functionality system-wide, and all your favorite programs instantly
-        become autocorrect-enabled. AutoText works in all word processors, text
-        editors, email software, even in online solutions like Google Docs or
-        GMail. AutoText will work with any Internet browser including Internet
-        Explorer, Firefox or Opera. Jitbit Autotext autocompletes your
-        frequently used text snippets in any program, making text typing much
-        faster. It's a perfect auto typer for Windows
-      </p>
-      <p>
-        AutoText works in any program You may know the Autotext feature of MS
-        Office. The advantage of Jitbit Autotext is that it provides same
-        functionality system-wide, and all your favorite programs instantly
-        become autocorrect-enabled. AutoText works in all word processors, text
-        editors, email software, even in online solutions like Google Docs or
-        GMail. AutoText will work with any Internet browser including Internet
-        Explorer, Firefox or Opera. Jitbit Autotext autocompletes your
-        frequently used text snippets in any program, making text typing much
-        faster. It's a perfect auto typer for Windows
-      </p>
-      <p>
-        AutoText works in any program You may know the Autotext feature of MS
-        Office. The advantage of Jitbit Autotext is that it provides same
-        functionality system-wide, and all your favorite programs instantly
-        become autocorrect-enabled. AutoText works in all word processors, text
-        editors, email software, even in online solutions like Google Docs or
-        GMail. AutoText will work with any Internet browser including Internet
-        Explorer, Firefox or Opera. Jitbit Autotext autocompletes your
-        frequently used text snippets in any program, making text typing much
-        faster. It's a perfect auto typer for Windows
-      </p>
+    <div>
+      <HeroSection section={params.section} />
+      <div className="section-menu">{dishSection}</div>
     </div>
   );
 }

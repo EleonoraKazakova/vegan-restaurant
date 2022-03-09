@@ -1,10 +1,31 @@
 {
-  "dishes": [
-    { "dishes.img": "dish.jpg" },
+  "homePageDishes": [
     {
       "id": "0",
-      "name": "Vegan pizza",
-      "imgProject": "pizza.jpg",
+      "dishImg": "dish",
+      "description": "Our vegan dishes will surprise you with the first piece.",
+      "section": "dishes"
+    },
+
+    {
+      "id": "1",
+      "dishImg": "dessert",
+      "description": "You will fall in love in our vegan desserts the first piece.",
+      "section": "desserts"
+    },
+    {
+      "id": "2",
+      "dishImg": "drinks",
+      "description": "You will like our vegan drinks with the first sip.",
+      "section": "drinks"
+    }
+  ],
+  "dishes": {
+    "vegan-pizza": {
+      "id": "0",
+      "webTitle": "vegan-pizza",
+      "title": "Vegan pizza",
+      "imgProject": "pizza",
       "description": "Tasty pizza with vegetables and vegan cheese.",
       "ingredients": [
         "artichoke",
@@ -28,10 +49,11 @@
         "Protein": "10mg"
       }
     },
-    {
+    "vegan-sandwich": {
       "id": "1",
-      "name": "Vegan sandwich",
-      "imgProject": "sandwich.jpg",
+      "webTitle": "vegan-sandwich",
+      "title": "Vegan sandwich",
+      "imgProject": "sandwich",
       "description": "Tasty sandwich with vegan humburger, fresh vegetables and crispy bread.",
       "ingredients": [
         "cucumber",
@@ -56,10 +78,11 @@
         "Protein": "5mg"
       }
     },
-    {
+    "vegan-salad": {
       "id": "2",
-      "name": "Vegan salad",
-      "imgProject": "salad.jpg",
+      "webTitle": "vegan-salad",
+      "title": "Vegan salad",
+      "imgProject": "salad",
       "description": "Tasty salad with fresh vegetables and boiled potato.",
       "ingredients": [
         "cucumber",
@@ -85,10 +108,11 @@
         "Protein": "7mg"
       }
     },
-    {
+    "vegan-hot-potato": {
       "id": "3",
-      "name": "Vegan hot potato",
-      "imgProject": "popato.jpg",
+      "webTitle": "vegan-hot-potato",
+      "title": "Vegan hot potato",
+      "imgProject": "potato",
       "description": "Tasty dish with potato, vegan sauce and stewed vegetables.",
       "ingredients": [
         "popato",
@@ -112,13 +136,13 @@
         "Protein": "7mg"
       }
     }
-  ],
-  "desserts": [
-    { "desserts.img": "dessert.jpg" },
-    {
+  },
+  "desserts": {
+    "vegan-cheesecake": {
       "id": "0",
-      "name": "Vegan cheesecake",
-      "imgProject": "cheesecake.jpg",
+      "webTitle": "vegan-cheesecake",
+      "title": "Vegan cheesecake",
+      "imgProject": "cheesecake",
       "description": "Delicious cheesecake with fruits and vegan cream.",
       "ingredients": ["strawberry", "vegan cream", "nuts", "flour", "sugar"],
       "nutritionFacts": {
@@ -135,10 +159,11 @@
         "Protein": "20mg"
       }
     },
-    {
+    "vegan-chokolate-cake": {
       "id": "1",
-      "name": "Vegan chokolate cake",
-      "imgProject": "chokolateCake.jpg",
+      "webTitle": "vegan-chokolate-cake",
+      "title": "Vegan chokolate cake",
+      "imgProject": "chokolateCake",
       "description": "Delicious chokolate cake with chokolate, fruits, nuts and vegan cream.",
       "ingredients": ["cocao", "cherry", "vegan cream", "flour", "sugar"],
       "nutritionFacts": {
@@ -155,10 +180,11 @@
         "Protein": "7mg"
       }
     },
-    {
+    "vegan-fruit-cake": {
       "id": "2",
-      "name": "Vegan fruit cake",
-      "imgProject": "fruitCake.jpg",
+      "webTitle": "vegan-fruit-cake",
+      "title": "Vegan fruit cake",
+      "imgProject": "fruitCake",
       "description": "Delicious fruit cake with berries, fruits and vegan cream.",
       "ingredients": ["cherry", "bananas", "flour", "sugar"],
       "nutritionFacts": {
@@ -175,10 +201,11 @@
         "Protein": "9mg"
       }
     },
-    {
+    "vegan-fruit-salad": {
       "id": "3",
-      "name": "Vegan fruit salad",
-      "imgProject": "fruitSalad.jpg",
+      "webTitle": "vegan-fruit-salad",
+      "title": "Vegan fruit salad",
+      "imgProject": "fruitSalad",
       "description": "Delicious fruit salad with berries, nuts, fruits and flake.",
       "ingredients": ["cherry", "bananas", "flour", "sugar"],
       "nutritionFacts": {
@@ -195,13 +222,13 @@
         "Protein": "10mg"
       }
     }
-  ],
-  "drinks": [
-    { "drinks.img": "drincs.jpg" },
-    {
+  },
+  "drinks": {
+    "vegan-chocolate-coctail": {
       "id": "0",
-      "name": "Vegan chocolate coctail",
-      "imgProject": "chocolateCoctail.jpg",
+      "webTitle": "vegan-chocolate-coctail",
+      "title": "Vegan chocolate coctail",
+      "imgProject": "chocolateCoctail",
       "description": "Yummy chocolate coctail with berries, fruits and vegan milk.",
       "ingredients": [
         "vegan milk",
@@ -225,10 +252,11 @@
         "Protein": "5mg"
       }
     },
-    {
+    "vegan-coctail": {
       "id": "1",
-      "name": "Vegan coctail",
-      "imgProject": "coctail.jpg",
+      "webTitle": "vegan-coctail",
+      "title": "Vegan coctail",
+      "imgProject": "coctail",
       "description": "Yummy coctail with fruits and vegan milk.",
       "ingredients": ["vegan milk", "banana", "orange", "apple"],
       "nutritionFacts": {
@@ -245,10 +273,11 @@
         "Protein": "6mg"
       }
     },
-    {
+    "vegan-fruit-coktail": {
       "id": "2",
-      "name": "Vegan fruit coktail",
-      "imgProject": "fruitCoktail.jpg",
+      "webTitle": "vegan-fruit-coktail",
+      "title": "Vegan fruit coktail",
+      "imgProject": "fruitCoktail",
       "description": "Yummy fruit coktail with berries, fruits and vegan milk.",
       "ingredients": ["vegan milk", "banana", "chery", "apple", "orange"],
       "nutritionFacts": {
@@ -265,10 +294,11 @@
         "Protein": "8mg"
       }
     },
-    {
+    "vegan-yogurt": {
       "id": "3",
-      "name": "Vegan yogurt",
-      "imgProject": "yogurt.jpg",
+      "webTitle": "vegan-yogurt",
+      "title": "Vegan yogurt",
+      "imgProject": "yogurt",
       "description": "Yummy yogurt with fruits and vegan yogurt.",
       "ingredients": ["vegan yogurt", "banana", "strawberry", "orange"],
       "nutritionFacts": {
@@ -285,5 +315,5 @@
         "Protein": "9mg"
       }
     }
-  ]
+  }
 }
