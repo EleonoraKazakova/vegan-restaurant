@@ -25,13 +25,14 @@ export default function Contact() {
   };
 
   const timeData = DataTime.schedule.map((data) => (
-    <tr>
-      <td>{data[0]}</td> <td>{data[1]}</td>
+    <tr key={data[0]}>
+      <td>{data[0]}</td>
+      <td>{data[1]}</td>
     </tr>
   ));
 
   const address = DataTime.address.map((data) => (
-    <tr>
+    <tr key={data}>
       <td>{data}</td>
     </tr>
   ));
@@ -42,12 +43,17 @@ export default function Contact() {
       <div className="contact-text-form">
         <div>
           <h2>Opening hours</h2>
-          <table className="contact-table">{timeData}</table>
+          <table className="contact-table">
+            <tbody>{timeData}</tbody>
+          </table>
           <h4>Address</h4>
-          <table className="contact-table">{address}</table>
+          <table className="contact-table">
+            <tbody>{address}</tbody>
+          </table>
         </div>
 
         <form className="contact-form">
+          <h3 className="contact-form-title">Book a table</h3>
           <label> Your Full Name</label>
           <input
             required

@@ -1,12 +1,11 @@
 import "./styles/App.css";
-import Hero from "./components/Hero";
 import Bar from "./components/Bar";
 import Footer from "./components/Footer";
 import HomePage from "./components/HomePage";
 import Section from "./components/Section";
 import Dish from "./components/Dish";
 import Contact from "./components/Contact";
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (

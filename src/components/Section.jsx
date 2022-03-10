@@ -5,12 +5,11 @@ import DishData from "./DishData.json";
 import HeroSection from "./HeroSection";
 
 export default function Section() {
+  const params = useParams();
   const history = useNavigate();
   function toggleSection(dish) {
     history(`/section/${params.section}/${dish}`);
   }
-
-  const params = useParams();
 
   const dishSection = Object.values(DishData[params.section]).map((dish) => (
     <div key={dish.id} className="section-content">

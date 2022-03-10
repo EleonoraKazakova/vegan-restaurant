@@ -2,14 +2,14 @@
   "homePageDishes": [
     {
       "id": "0",
-      "dishImg": "dish",
+      "dishImg": "Dishes",
       "description": "Our vegan Dishes will surprise you with the first piece.",
       "section": "Dishes"
     },
 
     {
       "id": "1",
-      "dishImg": "dessert",
+      "dishImg": "Desserts",
       "description": "You will fall in love in our vegan Desserts the first piece.",
       "section": "Desserts"
     },

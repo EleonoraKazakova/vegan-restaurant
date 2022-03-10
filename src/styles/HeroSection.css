@@ -1,16 +1,16 @@
-.hero-content-dishes {
-  background-image: url("../pictures/homePage/dish.jpg");
+.hero-section-Dishes {
+  background-image: url("../pictures/homePage/Dishes.jpg");
 }
 
-.hero-content-desserts {
-  background-image: url("../pictures/homePage/dessert.jpg");
+.hero-section-Desserts {
+  background-image: url("../pictures/homePage/Desserts.jpg");
 }
 
-.hero-content-drinks {
+.hero-section-Drinks {
   background-image: url("../pictures/homePage/Drinks.jpg");
 }
 
-.hero-content {
+.hero-section {
   background-position: absolute;
   background-repeat: no-repeat;
   background-size: cover;
