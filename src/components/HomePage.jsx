@@ -20,7 +20,7 @@ export default function HomePage() {
       />
       <span className="homepage-text-grid">
         <span className="homepage-text-content">
-          <p>{dish.description}</p>
+          <p className="homepage-text">{dish.description}</p>
           <button
             className="homepage-button"
             onClick={() => toggleSection(dish.section)}

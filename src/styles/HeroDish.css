@@ -1,57 +1,57 @@
-.hero-content-cheesecake {
-  background-image: url("../pictures/desserts/cheesecake.jpg");
+.hero-dish-cheesecake {
+  background-image: url("../pictures/Desserts/cheesecake.jpg");
 }
 
-.hero-content-chocolateCake {
-  background-image: url("../pictures/desserts/chocolateCake.jpg");
+.hero-dish-chocolateCake {
+  background-image: url("../pictures/Desserts/chocolateCake.jpg");
 }
 
-.hero-content-fruitCake {
-  background-image: url("../pictures/desserts/fruitCake.jpg");
+.hero-dish-fruitCake {
+  background-image: url("../pictures/Desserts/fruitCake.jpg");
 }
 
-.hero-content-fruitSalad {
-  background-image: url("../pictures/desserts/fruitSalad.jpg");
+.hero-dish-fruitSalad {
+  background-image: url("../pictures/Desserts/fruitSalad.jpg");
 }
 
-.hero-content-pizza {
-  background-image: url("../pictures/dishes/pizza.jpg");
+.hero-dish-pizza {
+  background-image: url("../pictures/Dishes/pizza.jpg");
 }
 
-.hero-content-potato {
-  background-image: url("../pictures/dishes/potato.jpg");
+.hero-dish-potato {
+  background-image: url("../pictures/Dishes/potato.jpg");
 }
 
-.hero-content-salad {
-  background-image: url("../pictures/dishes/salad.jpg");
+.hero-dish-salad {
+  background-image: url("../pictures/Dishes/salad.jpg");
 }
 
-.hero-content-sandwich {
-  background-image: url("../pictures/dishes/sandwich.jpg");
+.hero-dish-sandwich {
+  background-image: url("../pictures/Dishes/sandwich.jpg");
 }
 
-.hero-content-fruitCocktail {
-  background-image: url("../pictures/drinks/fruitCocktail.jpg");
+.hero-dish-fruitCocktail {
+  background-image: url("../pictures/Drinks/fruitCocktail.jpg");
 }
 
-.hero-content-yogurt {
-  background-image: url("../pictures/drinks/yogurt.jpg");
+.hero-dish-yogurt {
+  background-image: url("../pictures/Drinks/yogurt.jpg");
 }
 
-.hero-content-chocolateCocktail {
-  background-image: url("../pictures/drinks/chocolateCocktail.jpg");
+.hero-dish-chocolateCocktail {
+  background-image: url("../pictures/Drinks/chocolateCocktail.jpg");
 }
 
-.hero-content-cocktail {
-  background-image: url("../pictures/drinks/cocktail.jpg");
+.hero-dish-cocktail {
+  background-image: url("../pictures/Drinks/cocktail.jpg");
 }
 
-.hero-content {
+.hero-dish {
   background-position: absolute;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
-  min-height: 100vh;
+  min-height: 500px;
   width: 100%;
   display: flex;
 }

@@ -20,6 +20,10 @@
     width: 300px;
     padding-bottom: 40px;
   }
+
+  .contact-table {
+    width: 250px;
+  }
 }
 
 @media (min-width: 900px) {
@@ -41,6 +45,10 @@
   .contact-image {
     width: 700px;
     padding-bottom: 40px;
+  }
+
+  .contact-table {
+    width: 300px;
   }
 }
 

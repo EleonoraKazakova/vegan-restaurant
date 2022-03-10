@@ -1,3 +1,50 @@
+@media (max-width: 999px) {
+  .dish-content-block {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 290px;
+    align-items: center;
+    margin: 20px;
+    gap: 20px;
+  }
+
+  .dish-text {
+    text-align: center;
+  }
+
+  .dish-ingredient {
+    color: var(--swatch-dark-green);
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .dish-table {
+    width: 300px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .dish-content-block {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 800px;
+    align-items: center;
+    padding: 40px 0 40px 0;
+    gap: 20px;
+  }
+
+  .dish-ingredient {
+    color: var(--swatch-dark-green);
+    font-weight: 600;
+  }
+
+  .dish-table {
+    width: 500px;
+  }
+}
+
 .dish-table-text {
   font-weight: bold;
 }
@@ -7,23 +54,8 @@ td {
   border-bottom: 1px solid var(--swatch-light-brown);
 }
 
-.dish-content-block {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  width: 800px;
-  align-items: center;
-  padding: 40px 0 40px 0;
-  gap: 20px;
-}
-
 .dish-content {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.dish-ingredient {
-  color: var(--swatsh-dark-green);
-  font-weight: 600;
 }

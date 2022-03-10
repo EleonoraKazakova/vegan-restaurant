@@ -3,24 +3,24 @@
     {
       "id": "0",
       "dishImg": "dish",
-      "description": "Our vegan dishes will surprise you with the first piece.",
-      "section": "dishes"
+      "description": "Our vegan Dishes will surprise you with the first piece.",
+      "section": "Dishes"
     },
 
     {
       "id": "1",
       "dishImg": "dessert",
-      "description": "You will fall in love in our vegan desserts the first piece.",
-      "section": "desserts"
+      "description": "You will fall in love in our vegan Desserts the first piece.",
+      "section": "Desserts"
     },
     {
       "id": "2",
-      "dishImg": "drinks",
-      "description": "You will like our vegan drinks with the first sip.",
-      "section": "drinks"
+      "dishImg": "Drinks",
+      "description": "You will like our vegan Drinks with the first sip.",
+      "section": "Drinks"
     }
   ],
-  "dishes": {
+  "Dishes": {
     "vegan-pizza": {
       "id": "0",
       "webTitle": "vegan-pizza",
@@ -137,7 +137,7 @@
       }
     }
   },
-  "desserts": {
+  "Desserts": {
     "vegan-cheesecake": {
       "id": "0",
       "webTitle": "vegan-cheesecake",
@@ -159,12 +159,12 @@
         "Protein": "20mg"
       }
     },
-    "vegan-chokolate-cake": {
+    "vegan-chocolate-cake": {
       "id": "1",
-      "webTitle": "vegan-chokolate-cake",
-      "title": "Vegan chokolate cake",
-      "imgProject": "chokolateCake",
-      "description": "Delicious chokolate cake with chokolate, fruits, nuts and vegan cream.",
+      "webTitle": "vegan-chocolate-cake",
+      "title": "Vegan chocolate cake",
+      "imgProject": "chocolateCake",
+      "description": "Delicious chocolate cake with chocolate, fruits, nuts and vegan cream.",
       "ingredients": ["cocao", "cherry", "vegan cream", "flour", "sugar"],
       "nutritionFacts": {
         "servingSize": "250g",
@@ -223,7 +223,7 @@
       }
     }
   },
-  "drinks": {
+  "Drinks": {
     "vegan-chocolate-cocktail": {
       "id": "0",
       "webTitle": "vegan-chocolate-cocktail",

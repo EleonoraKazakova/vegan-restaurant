@@ -17,7 +17,7 @@ export default function Dish() {
       <HeroDish dish={dishSection.imgProject} />
       <div className="dish-content-block">
         <h2>{dishSection.title}</h2>
-        <p>{dishSection.description}</p>
+        <p className="dish-text">{dishSection.description}</p>
         <div className="dish-ingredient">
           {dishSection.ingredients.join(", ")}
         </div>

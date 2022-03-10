@@ -11,6 +11,7 @@ export default function Section() {
   }
 
   const params = useParams();
+
   const dishSection = Object.values(DishData[params.section]).map((dish) => (
     <div key={dish.id} className="section-content">
       <img
@@ -33,9 +34,11 @@ export default function Section() {
     </div>
   ));
   console.log("dishSection:", dishSection);
+  console.log("params:", params);
   return (
     <div>
       <HeroSection section={params.section} />
+      <h1 className="section-title">{params.section}</h1>
       <div className="section-menu">{dishSection}</div>
     </div>
   );

@@ -2,6 +2,7 @@ import { useState } from "react";
 import "../styles/Contact.css";
 import HeroContact from "./HeroContact";
 import Map from "../pictures/map.jpg";
+import DataTime from "./DataTime.json";
 
 export default function Contact() {
   const [name, setName] = useState("");
@@ -22,17 +23,30 @@ export default function Contact() {
       return alert("We got your booking");
     }
   };
+
+  const timeData = DataTime.schedule.map((data) => (
+    <tr>
+      <td>{data[0]}</td> <td>{data[1]}</td>
+    </tr>
+  ));
+
+  const address = DataTime.address.map((data) => (
+    <tr>
+      <td>{data}</td>
+    </tr>
+  ));
+
   return (
     <section className="contact-content text">
       <HeroContact />
       <div className="contact-text-form">
         <div>
           <h2>Opening hours</h2>
-          <p>Monday to Friday08: 00 - 20:00 </p>
-          <p>Saturdays 09:00 - 22:00 </p>
-          <p>Sundays 10:00 - 22:00 </p>
-          <p>Address: Gamla torget 5, 753 20 Uppsala</p>
+          <table className="contact-table">{timeData}</table>
+          <h4>Address</h4>
+          <table className="contact-table">{address}</table>
         </div>
+
         <form className="contact-form">
           <label> Your Full Name</label>
           <input
