@@ -2,23 +2,23 @@ export default function DishTable({ dishSection }) {
   return (
     <table className="dish-table">
       <tr className="dish-table-text">
-        <td> servingSize:</td>
+        <td> Serving size:</td>
         <td>{dishSection.nutritionFacts.servingSize}</td>
       </tr>
       <tr className="dish-table-text">
-        <td>calories:</td>
+        <td>Calories:</td>
         <td>{dishSection.nutritionFacts.calories}</td>
       </tr>
       <tr className="dish-table-text">
-        <td>Calories From Fat:</td>
+        <td>Calories from fat:</td>
         <td>{dishSection.nutritionFacts.caloriesFromFat}</td>
       </tr>
       <tr>
-        <td>TotalFat: {dishSection.nutritionFacts.TotalFat[0]}</td>
+        <td>Total fat: {dishSection.nutritionFacts.TotalFat[0]}</td>
         <td>{dishSection.nutritionFacts.TotalFat[1]}</td>
       </tr>
       <tr>
-        <td>SaturatedFat: {dishSection.nutritionFacts.SaturatedFat[0]}</td>
+        <td>Saturated fat: {dishSection.nutritionFacts.SaturatedFat[0]}</td>
         <td>{dishSection.nutritionFacts.SaturatedFat[1]}</td>
       </tr>
       <tr className="dish-table-text">
@@ -31,12 +31,12 @@ export default function DishTable({ dishSection }) {
       </tr>
       <tr className="dish-table-text">
         <td>
-          TotalCarbohydrate: {dishSection.nutritionFacts.TotalCarbohydrate[0]}
+          Total carbohydrate: {dishSection.nutritionFacts.TotalCarbohydrate[0]}
         </td>
         <td>{dishSection.nutritionFacts.TotalCarbohydrate[1]}</td>
       </tr>
       <tr>
-        <td>DietaryFiber: {dishSection.nutritionFacts.DietaryFiber[0]}</td>
+        <td>Dietary fiber: {dishSection.nutritionFacts.DietaryFiber[0]}</td>
         <td>{dishSection.nutritionFacts.DietaryFiber[1]}</td>
       </tr>
       <tr>
