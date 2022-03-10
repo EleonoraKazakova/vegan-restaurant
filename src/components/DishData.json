@@ -224,12 +224,12 @@
     }
   },
   "drinks": {
-    "vegan-chocolate-coctail": {
+    "vegan-chocolate-cocktail": {
       "id": "0",
-      "webTitle": "vegan-chocolate-coctail",
-      "title": "Vegan chocolate coctail",
-      "imgProject": "chocolateCoctail",
-      "description": "Yummy chocolate coctail with berries, fruits and vegan milk.",
+      "webTitle": "vegan-chocolate-cocktail",
+      "title": "Vegan chocolate cocktail",
+      "imgProject": "chocolateCocktail",
+      "description": "Yummy chocolate cocktail with berries, fruits and vegan milk.",
       "ingredients": [
         "vegan milk",
         "cocao",
@@ -252,12 +252,12 @@
         "Protein": "5mg"
       }
     },
-    "vegan-coctail": {
+    "vegan-cocktail": {
       "id": "1",
-      "webTitle": "vegan-coctail",
-      "title": "Vegan coctail",
-      "imgProject": "coctail",
-      "description": "Yummy coctail with fruits and vegan milk.",
+      "webTitle": "vegan-cocktail",
+      "title": "Vegan cocktail",
+      "imgProject": "cocktail",
+      "description": "Yummy cocktail with fruits and vegan milk.",
       "ingredients": ["vegan milk", "banana", "orange", "apple"],
       "nutritionFacts": {
         "servingSize": "250g",
@@ -277,7 +277,7 @@
       "id": "2",
       "webTitle": "vegan-fruit-coktail",
       "title": "Vegan fruit coktail",
-      "imgProject": "fruitCoktail",
+      "imgProject": "fruitCocktail",
       "description": "Yummy fruit coktail with berries, fruits and vegan milk.",
       "ingredients": ["vegan milk", "banana", "chery", "apple", "orange"],
       "nutritionFacts": {
