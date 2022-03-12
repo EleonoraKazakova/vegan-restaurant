@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: -apple-system, "Cabin", sans-serif;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -14,6 +15,16 @@ h4 {
   padding: 0;
 }
 
+h1,
+h2 {
+  font-family: "Lemonada", sans-serif;
+}
+
 button {
   border: none;
+}
+
+p,
+h4 {
+  font-size: 18px;
 }

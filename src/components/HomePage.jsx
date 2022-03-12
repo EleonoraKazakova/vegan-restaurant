@@ -34,7 +34,7 @@ export default function HomePage() {
   return (
     <main className="homepage-content homepage-grid">
       <header className="homepage-hero-content homepage-grid-hero">
-        <section className="hero-content-block">
+        <section className="homepage-content-block">
           <h1 className="homepage-title">Pepper</h1>
           <h3 className="homepage-title-text">
             We will open a new vegan world!
