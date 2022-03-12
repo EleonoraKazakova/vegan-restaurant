@@ -1,20 +1,20 @@
 {
   "homePageDishes": [
     {
-      "id": "0",
+      "id": 0,
       "dishImg": "Dishes",
       "description": "Our vegan Dishes will surprise you with the first piece.",
       "section": "Dishes"
     },
 
     {
-      "id": "1",
+      "id": 1,
       "dishImg": "Desserts",
-      "description": "You will fall in love in our vegan Desserts the first piece.",
+      "description": "You will fall in love in our vegan Desserts with the first spoon.",
       "section": "Desserts"
     },
     {
-      "id": "2",
+      "id": 2,
       "dishImg": "Drinks",
       "description": "You will like our vegan Drinks with the first sip.",
       "section": "Drinks"
@@ -22,7 +22,7 @@
   ],
   "Dishes": {
     "vegan-pizza": {
-      "id": "0",
+      "id": 0,
       "webTitle": "vegan-pizza",
       "title": "Vegan pizza",
       "imgProject": "pizza",
@@ -35,22 +35,23 @@
         "mushrooms",
         "vegan cheese"
       ],
-      "nutritionFacts": {
-        "servingSize": "500g",
-        "calories": 300,
-        "caloriesFromFat": 100,
-        "TotalFat": ["15mg", "10%"],
-        "SaturatedFat": ["9mg", "5%"],
-        "Cholesterol": ["20mg", "7%"],
-        "Sodium": ["350mg", "15%"],
-        "TotalCarbohydrate": ["21g", "7%"],
-        "DietaryFiber": ["1g", "4%"],
-        "Sugars": "5mg",
-        "Protein": "10mg"
-      }
+
+      "nutritionFacts": [
+        ["Serving size", "500g"],
+        ["Calories", 300],
+        ["Calories from fat", 100],
+        ["Total fat", "10%"],
+        ["Saturated fat", "5%"],
+        ["Cholesterol", "7%"],
+        ["Sodium", "15%"],
+        ["Total carbohydrate", "7%"],
+        ["Dietary fiber", "4%"],
+        ["Sugars", "5mg"],
+        ["Protein", "10mg"]
+      ]
     },
     "vegan-sandwich": {
-      "id": "1",
+      "id": 1,
       "webTitle": "vegan-sandwich",
       "title": "Vegan sandwich",
       "imgProject": "sandwich",
@@ -64,22 +65,22 @@
         "salad",
         "vegan cheese"
       ],
-      "nutritionFacts": {
-        "servingSize": "200g",
-        "calories": 200,
-        "caloriesFromFat": 70,
-        "TotalFat": ["10mg", "8%"],
-        "SaturatedFat": ["8mg", "4%"],
-        "Cholesterol": ["15mg", "5%"],
-        "Sodium": ["250mg", "10%"],
-        "TotalCarbohydrate": ["15g", "5%"],
-        "DietaryFiber": ["1g", "4%"],
-        "Sugars": "1mg",
-        "Protein": "5mg"
-      }
+      "nutritionFacts": [
+        ["Serving size", "200g"],
+        ["Calories", 200],
+        ["Calories from fat", 70],
+        ["Total fat", "8%"],
+        ["Saturated fat", "4%"],
+        ["Cholesterol", "5%"],
+        ["Sodium", "10%"],
+        ["Total carbohydrate", "5%"],
+        ["Dietary fiber", "4%"],
+        ["Sugars", "1mg"],
+        ["Protein", "5mg"]
+      ]
     },
     "vegan-salad": {
-      "id": "2",
+      "id": 2,
       "webTitle": "vegan-salad",
       "title": "Vegan salad",
       "imgProject": "salad",
@@ -94,22 +95,22 @@
         "mushrooms",
         "eggplants"
       ],
-      "nutritionFacts": {
-        "servingSize": "350g",
-        "calories": 250,
-        "caloriesFromFat": 90,
-        "TotalFat": ["9mg", "9%"],
-        "SaturatedFat": ["11mg", "6%"],
-        "Cholesterol": ["18mg", "8%"],
-        "Sodium": ["350mg", "15%"],
-        "TotalCarbohydrate": ["25g", "15%"],
-        "DietaryFiber": ["2g", "6%"],
-        "Sugars": "2mg",
-        "Protein": "7mg"
-      }
+      "nutritionFacts": [
+        ["Serving size", "350g"],
+        ["Calories", 250],
+        ["Calories from fat", 90],
+        ["Total fat", "9%"],
+        ["Saturated fat", "6%"],
+        ["Cholesterol", "8%"],
+        ["Sodium", "15%"],
+        ["Total carbohydrate", "15%"],
+        ["Dietary fiber", "6%"],
+        ["Sugars", "2mg"],
+        ["Protein", "7mg"]
+      ]
     },
     "vegan-hot-potato": {
-      "id": "3",
+      "id": 3,
       "webTitle": "vegan-hot-potato",
       "title": "Vegan hot potato",
       "imgProject": "potato",
@@ -122,110 +123,110 @@
         "red pepper",
         "mushrooms"
       ],
-      "nutritionFacts": {
-        "servingSize": "350g",
-        "calories": 250,
-        "caloriesFromFat": 90,
-        "TotalFat": ["9mg", "9%"],
-        "SaturatedFat": ["11mg", "6%"],
-        "Cholesterol": ["18mg", "8%"],
-        "Sodium": ["350mg", "15%"],
-        "TotalCarbohydrate": ["25g", "15%"],
-        "DietaryFiber": ["2g", "6%"],
-        "Sugars": "2mg",
-        "Protein": "7mg"
-      }
+      "nutritionFacts": [
+        ["Serving size", "350g"],
+        ["Calories", 250],
+        ["Calories from fat", 90],
+        ["Total fat", "9%"],
+        ["Saturated fat", "6%"],
+        ["Cholesterol", "8%"],
+        ["Sodium", "15%"],
+        ["Total carbohydrate", "15%"],
+        ["Dietary fiber", "6%"],
+        ["Sugars", "2mg"],
+        ["Protein", "7mg"]
+      ]
     }
   },
   "Desserts": {
     "vegan-cheesecake": {
-      "id": "0",
+      "id": 0,
       "webTitle": "vegan-cheesecake",
       "title": "Vegan cheesecake",
       "imgProject": "cheesecake",
       "description": "Delicious cheesecake with fruits and vegan cream.",
       "ingredients": ["strawberry", "vegan cream", "nuts", "flour", "sugar"],
-      "nutritionFacts": {
-        "servingSize": "150g",
-        "calories": 200,
-        "caloriesFromFat": 150,
-        "TotalFat": ["25mg", "15%"],
-        "SaturatedFat": ["11mg", "8%"],
-        "Cholesterol": ["25mg", "9%"],
-        "Sodium": ["150mg", "10%"],
-        "TotalCarbohydrate": ["28g", "17%"],
-        "DietaryFiber": ["5g", "10%"],
-        "Sugars": "35mg",
-        "Protein": "20mg"
-      }
+      "nutritionFacts": [
+        ["Serving size", "150g"],
+        ["Calories", 200],
+        ["Calories from fat", 150],
+        ["Total fat", "15%"],
+        ["Saturated fat", "8%"],
+        ["Cholesterol", "9%"],
+        ["Sodium", "10%"],
+        ["Total carbohydrate", "17%"],
+        ["Dietary fiber", "10%"],
+        ["Sugars", "35mg"],
+        ["Protein", "20mg"]
+      ]
     },
     "vegan-chocolate-cake": {
-      "id": "1",
+      "id": 1,
       "webTitle": "vegan-chocolate-cake",
       "title": "Vegan chocolate cake",
       "imgProject": "chocolateCake",
       "description": "Delicious chocolate cake with chocolate, fruits, nuts and vegan cream.",
       "ingredients": ["cocao", "cherry", "vegan cream", "flour", "sugar"],
-      "nutritionFacts": {
-        "servingSize": "250g",
-        "calories": 190,
-        "caloriesFromFat": 60,
-        "TotalFat": ["9mg", "7%"],
-        "SaturatedFat": ["7mg", "3%"],
-        "Cholesterol": ["13mg", "4%"],
-        "Sodium": ["230mg", "9%"],
-        "TotalCarbohydrate": ["13g", "3%"],
-        "DietaryFiber": ["2g", "3%"],
-        "Sugars": "3mg",
-        "Protein": "7mg"
-      }
+      "nutritionFacts": [
+        ["Serving size", "250g"],
+        ["Calories", 190],
+        ["Calories from fat", 60],
+        ["Total fat", "7%"],
+        ["Saturated fat", "3%"],
+        ["Cholesterol", "4%"],
+        ["Sodium", "9%"],
+        ["Total carbohydrate", "3%"],
+        ["Dietary fiber", "3%"],
+        ["Sugars", "3mg"],
+        ["Protein", "7mg"]
+      ]
     },
     "vegan-fruit-cake": {
-      "id": "2",
+      "id": 2,
       "webTitle": "vegan-fruit-cake",
       "title": "Vegan fruit cake",
       "imgProject": "fruitCake",
       "description": "Delicious fruit cake with berries, fruits and vegan cream.",
       "ingredients": ["cherry", "bananas", "flour", "sugar"],
-      "nutritionFacts": {
-        "servingSize": "250g",
-        "calories": 210,
-        "caloriesFromFat": 80,
-        "TotalFat": ["12mg", "11%"],
-        "SaturatedFat": ["13mg", "8%"],
-        "Cholesterol": ["16mg", "7%"],
-        "Sodium": ["220mg", "12%"],
-        "TotalCarbohydrate": ["22g", "13%"],
-        "DietaryFiber": ["3g", "5%"],
-        "Sugars": "6mg",
-        "Protein": "9mg"
-      }
+      "nutritionFacts": [
+        ["Serving size", "250g"],
+        ["Calories", 210],
+        ["Calories from fat", 80],
+        ["Total fat", "11%"],
+        ["Saturated fat", "8%"],
+        ["Cholesterol", "7%"],
+        ["Sodium", "12%"],
+        ["Total carbohydrate", "13%"],
+        ["Dietary fiber", "5%"],
+        ["Sugars", "6mg"],
+        ["Protein", "9mg"]
+      ]
     },
     "vegan-fruit-salad": {
-      "id": "3",
+      "id": 3,
       "webTitle": "vegan-fruit-salad",
       "title": "Vegan fruit salad",
       "imgProject": "fruitSalad",
       "description": "Delicious fruit salad with berries, nuts, fruits and flake.",
       "ingredients": ["cherry", "bananas", "flour", "sugar"],
-      "nutritionFacts": {
-        "servingSize": "300g",
-        "calories": 250,
-        "caloriesFromFat": 90,
-        "TotalFat": ["9mg", "10%"],
-        "SaturatedFat": ["15mg", "9%"],
-        "Cholesterol": ["19mg", "8%"],
-        "Sodium": ["260mg", "16%"],
-        "TotalCarbohydrate": ["35g", "20%"],
-        "DietaryFiber": ["10g", "9%"],
-        "Sugars": "5mg",
-        "Protein": "10mg"
-      }
+      "nutritionFacts": [
+        ["Serving size", "300g"],
+        ["Calories", 250],
+        ["Calories from fat", 90],
+        ["Total fat", "10%"],
+        ["Saturated fat", "9%"],
+        ["Cholesterol", "8%"],
+        ["Sodium", "16%"],
+        ["Total carbohydrate", "20%"],
+        ["Dietary fiber", "9%"],
+        ["Sugars", "5mg"],
+        ["Protein", "10mg"]
+      ]
     }
   },
   "Drinks": {
     "vegan-chocolate-cocktail": {
-      "id": "0",
+      "id": 0,
       "webTitle": "vegan-chocolate-cocktail",
       "title": "Vegan chocolate cocktail",
       "imgProject": "chocolateCocktail",
@@ -238,82 +239,82 @@
         "strawberry",
         "orange"
       ],
-      "nutritionFacts": {
-        "servingSize": "250g",
-        "calories": 110,
-        "caloriesFromFat": 70,
-        "TotalFat": ["12mg", "6%"],
-        "SaturatedFat": ["7mg", "4%"],
-        "Cholesterol": ["18mg", "6%"],
-        "Sodium": ["200mg", "12%"],
-        "TotalCarbohydrate": ["18g", "5%"],
-        "DietaryFiber": ["3g", "3%"],
-        "Sugars": "4mg",
-        "Protein": "5mg"
-      }
+      "nutritionFacts": [
+        ["Serving size", "250g"],
+        ["Calories", 110],
+        ["Calories from fat", 70],
+        ["Total fat", "6%"],
+        ["Saturated fat", "4%"],
+        ["Cholesterol", "6%"],
+        ["Sodium", "12%"],
+        ["Total carbohydrate", "5%"],
+        ["Dietary fiber", "3%"],
+        ["Sugars", "4mg"],
+        ["Protein", "5mg"]
+      ]
     },
     "vegan-cocktail": {
-      "id": "1",
+      "id": 1,
       "webTitle": "vegan-cocktail",
       "title": "Vegan cocktail",
       "imgProject": "cocktail",
       "description": "Yummy cocktail with fruits and vegan milk.",
       "ingredients": ["vegan milk", "banana", "orange", "apple"],
-      "nutritionFacts": {
-        "servingSize": "250g",
-        "calories": 100,
-        "caloriesFromFat": 70,
-        "TotalFat": ["6mg", "6%"],
-        "SaturatedFat": ["3mg", "3%"],
-        "Cholesterol": ["16mg", "4%"],
-        "Sodium": ["200mg", "7%"],
-        "TotalCarbohydrate": ["25g", "15%"],
-        "DietaryFiber": ["5g", "5%"],
-        "Sugars": "7mg",
-        "Protein": "6mg"
-      }
+      "nutritionFacts": [
+        ["Serving size", "250g"],
+        ["Calories", 100],
+        ["Calories from fat", 70],
+        ["Total fat", "6%"],
+        ["Saturated fat", "3%"],
+        ["Cholesterol", "4%"],
+        ["Sodium", "7%"],
+        ["Total carbohydrate", "15%"],
+        ["Dietary fiber", "5%"],
+        ["Sugars", "7mg"],
+        ["Protein", "6mg"]
+      ]
     },
     "vegan-fruit-coktail": {
-      "id": "2",
+      "id": 2,
       "webTitle": "vegan-fruit-coktail",
       "title": "Vegan fruit coktail",
       "imgProject": "fruitCocktail",
       "description": "Yummy fruit coktail with berries, fruits and vegan milk.",
       "ingredients": ["vegan milk", "banana", "chery", "apple", "orange"],
-      "nutritionFacts": {
-        "servingSize": "250g",
-        "calories": 150,
-        "caloriesFromFat": 80,
-        "TotalFat": ["7mg", "8%"],
-        "SaturatedFat": ["10mg", "7%"],
-        "Cholesterol": ["16mg", "9%"],
-        "Sodium": ["150mg", "10%"],
-        "TotalCarbohydrate": ["20g", "10%"],
-        "DietaryFiber": ["4g", "5%"],
-        "Sugars": "6mg",
-        "Protein": "8mg"
-      }
+      "nutritionFacts": [
+        ["Serving size", "250g"],
+        ["Calories", 150],
+        ["Calories from fat", 80],
+        ["Total fat", "8%"],
+        ["Saturated fat", "7%"],
+        ["Cholesterol", "9%"],
+        ["Sodium", "10%"],
+        ["Total carbohydrate", "10%"],
+        ["Dietary fiber", "5%"],
+        ["Sugars", "6mg"],
+        ["Protein", "8mg"]
+      ]
     },
     "vegan-yogurt": {
-      "id": "3",
+      "id": 3,
       "webTitle": "vegan-yogurt",
       "title": "Vegan yogurt",
       "imgProject": "yogurt",
       "description": "Yummy yogurt with fruits and vegan yogurt.",
       "ingredients": ["vegan yogurt", "banana", "strawberry", "orange"],
-      "nutritionFacts": {
-        "servingSize": "200g",
-        "calories": 120,
-        "caloriesFromFat": 70,
-        "TotalFat": ["6mg", "5%"],
-        "SaturatedFat": ["10mg", "7%"],
-        "Cholesterol": ["15mg", "7%"],
-        "Sodium": ["150mg", "12%"],
-        "TotalCarbohydrate": ["22g", "12%"],
-        "DietaryFiber": ["5g", "4%"],
-        "Sugars": "7mg",
-        "Protein": "9mg"
-      }
+      "nutritionFacts": [
+        ["Serving size", "200g"],
+        ["Calories", 120],
+        ["Calories from fat", 70],
+        ["Total fat", "5%"],
+        ["Saturated fat", "7%"],
+        ["Cholesterol", "7%"],
+        ["Sodium", "12%"],
+        ["Total carbohydrate", "12%"],
+        ["Dietary fiber", "4%"],
+        ["Sugars", "7mg"],
+        ["Protein", "9mg"]
+      ]
     }
   }
 }

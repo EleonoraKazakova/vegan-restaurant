@@ -1,4 +1,4 @@
-import "../styles/Bar.css";
+import "../styles/bar.css";
 import { Link } from "react-router-dom";
 import Logo from "../logo.svg";
 

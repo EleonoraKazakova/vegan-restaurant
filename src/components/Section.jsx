@@ -1,4 +1,4 @@
-import "../styles/Section.css";
+import "../styles/section.css";
 import "../styles/base/button.css";
 import { useParams, useNavigate } from "react-router-dom";
 import DishData from "./DishData.json";
@@ -32,8 +32,7 @@ export default function Section() {
       </span>
     </div>
   ));
-  console.log("dishSection:", dishSection);
-  console.log("params:", params);
+
   return (
     <div>
       <HeroSection section={params.section} />

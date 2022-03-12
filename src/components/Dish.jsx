@@ -1,4 +1,4 @@
-import "../styles/Dish.css";
+import "../styles/dish.css";
 import { useParams, useNavigate } from "react-router-dom";
 import HeroDish from "./HeroDish";
 import "../styles/base/button.css";

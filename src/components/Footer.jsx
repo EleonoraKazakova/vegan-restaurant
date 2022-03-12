@@ -1,4 +1,4 @@
-import "../styles/Footer.css";
+import "../styles/footer.css";
 import LogoInstagram from "../pictures/instagram-brands.svg";
 import LogoFacebook from "../pictures/facebook-brands.svg";
 import { ExternalLink } from "react-external-link";

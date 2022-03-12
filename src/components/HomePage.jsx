@@ -1,7 +1,7 @@
-import "../styles/HomePage.css";
+import "../styles/homePage.css";
 import DishData from "./DishData.json";
 import { useNavigate } from "react-router-dom";
-import Hero from "./Hero";
+import "../styles/hero.css";
 
 export default function HomePage() {
   const history = useNavigate();
@@ -33,9 +33,14 @@ export default function HomePage() {
   ));
 
   return (
-    <section className="homepage-content">
-      <Hero />
+    <main className="homepage-content">
+      <header className="hero-content">
+        <section className="hero-content-block">
+          <h1 className="hero-title">Pepper</h1>
+          <h3 className="hero-title-text">We will open a new vegan world!</h3>
+        </section>
+      </header>
       <section className="homepage-menu">{dataDish}</section>
-    </section>
+    </main>
   );
 }

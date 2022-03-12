@@ -54,6 +54,11 @@ td {
   border-bottom: 1px solid var(--swatch-light-brown);
 }
 
+.dish-table-td {
+  display: flex;
+  justify-content: end;
+}
+
 .dish-content {
   display: flex;
   flex-direction: column;
