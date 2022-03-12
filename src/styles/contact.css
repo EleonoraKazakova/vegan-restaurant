@@ -41,6 +41,11 @@
     width: 100%;
   }
 
+  .leaflet-container {
+    width: 300px;
+    height: 400px;
+  }
+
   .contact-table {
     width: 250px;
   }
@@ -71,6 +76,10 @@
   }
   .contact-image {
     width: 550px;
+  }
+  .leaflet-container {
+    width: 550px;
+    height: 500px;
   }
 
   .contact-text-form {
@@ -135,6 +144,11 @@
   .contact-image {
     width: 700px;
     padding-bottom: 40px;
+  }
+
+  .leaflet-container {
+    width: 700px;
+    height: 500px;
   }
 
   .contact-table {

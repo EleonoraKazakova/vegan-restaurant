@@ -1,7 +1,7 @@
 import "../styles/contact.css";
-import Map from "../pictures/map.jpg";
 import DataTime from "./DataTime.json";
 import BookingForm from "./BookingForm";
+import Map from "./Map";
 
 export default function Contact() {
   const timeData = DataTime.schedule.map((data) => (
@@ -34,7 +34,10 @@ export default function Contact() {
           </span>
           <BookingForm />
         </article>
-        <img src={Map} className="contact-image" />
+
+        <span className="contact-image">
+          <Map />
+        </span>
       </section>
     </main>
   );
