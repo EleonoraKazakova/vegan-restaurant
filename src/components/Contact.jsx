@@ -1,5 +1,4 @@
 import "../styles/contact.css";
-import HeroContact from "./HeroContact";
 import Map from "../pictures/map.jpg";
 import DataTime from "./DataTime.json";
 import BookingForm from "./BookingForm";
@@ -19,23 +18,24 @@ export default function Contact() {
   ));
 
   return (
-    <section className="contact-content text">
-      <HeroContact />
-      <div className="contact-text-form">
-        <div>
-          <h2>Opening hours</h2>
-          <table className="contact-table">
-            <tbody>{timeData}</tbody>
-          </table>
-          <h4>Address</h4>
-          <table className="contact-table">
-            <tbody>{address}</tbody>
-          </table>
-        </div>
-
-        <BookingForm />
-      </div>
-      <img src={Map} className="contact-image" />
-    </section>
+    <main className="contact-content text contact-grid">
+      <header className="contact-hero-content contact-grid-hero"></header>
+      <section className="contact-grid-content">
+        <article className="contact-text-form">
+          <span>
+            <h2>Opening hours</h2>
+            <table className="contact-table">
+              <tbody>{timeData}</tbody>
+            </table>
+            <h4>Address</h4>
+            <table className="contact-table">
+              <tbody>{address}</tbody>
+            </table>
+          </span>
+          <BookingForm />
+        </article>
+        <img src={Map} className="contact-image" />
+      </section>
+    </main>
   );
 }

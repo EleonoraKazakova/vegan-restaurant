@@ -4,20 +4,23 @@
       "id": 0,
       "dishImg": "Dishes",
       "description": "Our vegan Dishes will surprise you with the first piece.",
-      "section": "Dishes"
+      "section": "Dishes",
+      "altImg": "A green soup with kiwi"
     },
 
     {
       "id": 1,
       "dishImg": "Desserts",
       "description": "You will fall in love in our vegan Desserts with the first spoon.",
-      "section": "Desserts"
+      "section": "Desserts",
+      "altImg": "Pancakes with tangerines"
     },
     {
       "id": 2,
       "dishImg": "Drinks",
       "description": "You will like our vegan Drinks with the first sip.",
-      "section": "Drinks"
+      "section": "Drinks",
+      "altImg": "A glass of juice"
     }
   ],
   "Dishes": {
@@ -35,7 +38,7 @@
         "mushrooms",
         "vegan cheese"
       ],
-
+      "altImg": "Pizza with avocado",
       "nutritionFacts": [
         ["Serving size", "500g"],
         ["Calories", 300],
@@ -65,6 +68,7 @@
         "salad",
         "vegan cheese"
       ],
+      "altImg": "Vegan sandwich with vegetables",
       "nutritionFacts": [
         ["Serving size", "200g"],
         ["Calories", 200],
@@ -95,6 +99,7 @@
         "mushrooms",
         "eggplants"
       ],
+      "altImg": "Vegan salad with vegetables",
       "nutritionFacts": [
         ["Serving size", "350g"],
         ["Calories", 250],
@@ -109,6 +114,7 @@
         ["Protein", "7mg"]
       ]
     },
+
     "vegan-hot-potato": {
       "id": 3,
       "webTitle": "vegan-hot-potato",
@@ -123,6 +129,7 @@
         "red pepper",
         "mushrooms"
       ],
+      "altImg": "Potato with vegetables",
       "nutritionFacts": [
         ["Serving size", "350g"],
         ["Calories", 250],
@@ -146,6 +153,7 @@
       "imgProject": "cheesecake",
       "description": "Delicious cheesecake with fruits and vegan cream.",
       "ingredients": ["strawberry", "vegan cream", "nuts", "flour", "sugar"],
+      "alt": "Vegan cheesecake with purple cream and strawberry",
       "nutritionFacts": [
         ["Serving size", "150g"],
         ["Calories", 200],
@@ -167,6 +175,7 @@
       "imgProject": "chocolateCake",
       "description": "Delicious chocolate cake with chocolate, fruits, nuts and vegan cream.",
       "ingredients": ["cocao", "cherry", "vegan cream", "flour", "sugar"],
+      "altImg": "Vegan chocolate cake with chocolate cream",
       "nutritionFacts": [
         ["Serving size", "250g"],
         ["Calories", 190],
@@ -188,6 +197,7 @@
       "imgProject": "fruitCake",
       "description": "Delicious fruit cake with berries, fruits and vegan cream.",
       "ingredients": ["cherry", "bananas", "flour", "sugar"],
+      "altImg": "Vegan fruit cake with purple cream",
       "nutritionFacts": [
         ["Serving size", "250g"],
         ["Calories", 210],
@@ -209,6 +219,7 @@
       "imgProject": "fruitSalad",
       "description": "Delicious fruit salad with berries, nuts, fruits and flake.",
       "ingredients": ["cherry", "bananas", "flour", "sugar"],
+      "altImg": "Vegan fruit salad with fruits and flake",
       "nutritionFacts": [
         ["Serving size", "300g"],
         ["Calories", 250],
@@ -239,6 +250,7 @@
         "strawberry",
         "orange"
       ],
+      "altImg": "Vegan chocolate cocktail with spoon",
       "nutritionFacts": [
         ["Serving size", "250g"],
         ["Calories", 110],
@@ -260,6 +272,7 @@
       "imgProject": "cocktail",
       "description": "Yummy cocktail with fruits and vegan milk.",
       "ingredients": ["vegan milk", "banana", "orange", "apple"],
+      "altImg": "Vegan cocktail with fruits",
       "nutritionFacts": [
         ["Serving size", "250g"],
         ["Calories", 100],
@@ -281,6 +294,7 @@
       "imgProject": "fruitCocktail",
       "description": "Yummy fruit coktail with berries, fruits and vegan milk.",
       "ingredients": ["vegan milk", "banana", "chery", "apple", "orange"],
+      "altImg": "Glasses with berries and fruits",
       "nutritionFacts": [
         ["Serving size", "250g"],
         ["Calories", 150],
@@ -302,6 +316,7 @@
       "imgProject": "yogurt",
       "description": "Yummy yogurt with fruits and vegan yogurt.",
       "ingredients": ["vegan yogurt", "banana", "strawberry", "orange"],
+      "altImg": "Blue and green glasses",
       "nutritionFacts": [
         ["Serving size", "200g"],
         ["Calories", 120],

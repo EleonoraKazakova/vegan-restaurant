@@ -1,4 +1,15 @@
-@media (max-width: 599px) {
+@media (max-width: 699px) {
+  .hero-content-block {
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    padding: 10px 10px 10px 50px;
+    width: 100%;
+    background-color: #72717152;
+    flex-direction: column;
+    justify-content: start;
+  }
+
   .homepage-block {
     display: flex;
     flex-flow: wrap;
@@ -41,13 +52,44 @@
   }
 }
 
-@media (min-width: 600px) and (max-width: 999px) {
+@media (min-width: 700px) and (max-width: 1199px) {
+  .hero-content-block {
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    padding: 10px 10px 10px 50px;
+    width: 100%;
+    background-color: #72717152;
+    flex-direction: column;
+    justify-content: start;
+  }
+  .homepage-grid {
+    display: grid;
+    grid-template-columns: 50px auto 50px;
+    grid-template-rows: [section-hero]auto [section-menu]auto;
+    min-height: 100vh;
+  }
+
+  .homepage-grid-hero {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+  }
+  .homepage-grid-content {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+
+  .homepage-text-grid {
+    width: 300px;
+    display: grid;
+    grid-template-columns: 50px auto 50px;
+    grid-template-rows: 50px auto 50px;
+  }
   .homepage-block {
     display: flex;
-    flex-flow: wrap;
+    /*flex-flow: wrap;*/
     align-items: center;
     flex-direction: row;
-    width: 300px;
   }
 
   .homepage-block-reverse {
@@ -55,9 +97,7 @@
     flex-flow: wrap;
     align-items: center;
     flex-direction: row-reverse;
-    width: 300px;
   }
-
   .homepage-image {
     width: 300px;
   }
@@ -65,26 +105,41 @@
   .homepage-text-content {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
+    gap: 10px;
     display: flex;
-    align-items: center;
     flex-direction: column;
-    gap: 5px;
-    padding-bottom: 10px;
-  }
-
-  .homepage-text {
-    text-align: center;
-  }
-
-  .homepage-text-grid {
-    width: 300px;
-    display: grid;
-    grid-template-columns: 10px auto 10px;
-    grid-template-rows: 10px auto 10px;
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
+  .hero-content-block {
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    padding: 10px 10px 10px 100px;
+    height: 140px;
+    width: 100%;
+    background-color: #72717152;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .homepage-grid {
+    display: grid;
+    grid-template-columns: 100px auto 100px;
+    grid-template-rows: [section-hero]auto [section-menu]auto;
+    min-height: 100vh;
+  }
+
+  .homepage-grid-hero {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+  }
+  .homepage-grid-content {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+
   .homepage-text-grid {
     width: 500px;
     display: grid;
@@ -93,7 +148,7 @@
   }
   .homepage-block {
     display: flex;
-    flex-flow: wrap;
+    /*flex-flow: wrap;*/
     align-items: center;
     flex-direction: row;
   }
@@ -111,7 +166,32 @@
   .homepage-text-content {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
   }
+}
+
+.homepage-hero-content {
+  background-image: url("../pictures/kimzy-nanney-LNDgBERq8Q0-unsplash.jpg");
+  background-position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  color: rgb(242, 255, 213);
+  align-items: center;
+}
+
+.homepage-title {
+  font-size: 60px;
+}
+
+.homepage-title-text {
+  font-size: 30px;
+  text-align: center;
 }
 
 .homepage-menu {

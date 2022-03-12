@@ -2,7 +2,6 @@ import "../styles/section.css";
 import "../styles/base/button.css";
 import { useParams, useNavigate } from "react-router-dom";
 import DishData from "./DishData.json";
-import HeroSection from "./HeroSection";
 
 export default function Section() {
   const params = useParams();
@@ -12,7 +11,7 @@ export default function Section() {
   }
 
   const dishSection = Object.values(DishData[params.section]).map((dish) => (
-    <div key={dish.id} className="section-content">
+    <section key={dish.id} className="section-content">
       <img
         src={require(`../pictures/${params.section}/${dish.imgProject}.jpg`)}
         className="section-image"
@@ -30,14 +29,18 @@ export default function Section() {
           </button>
         </span>
       </span>
-    </div>
+    </section>
   ));
 
   return (
-    <div>
-      <HeroSection section={params.section} />
-      <h1 className="section-title">{params.section}</h1>
-      <div className="section-menu">{dishSection}</div>
-    </div>
+    <main className="section-grid">
+      <header
+        className={`section-${params.section} section-hero section-grid-hero`}
+      ></header>
+      <section className="section-grid-content">
+        <h1 className="section-title">{params.section}</h1>
+        <span className="section-menu ">{dishSection}</span>
+      </section>
+    </main>
   );
 }

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../styles/contact.css";
+import "../styles/bookingForm.css";
 
 export default function BookingForm() {
   const [name, setName] = useState("");
@@ -23,8 +23,8 @@ export default function BookingForm() {
     }
   }
   return (
-    <form className="contact-form">
-      <h3 className="contact-form-title">Book a table</h3>
+    <form className="bookingForm-form">
+      <h3 className="bookingForm-form-title">Book a table</h3>
       <label> Your Full Name</label>
       <input
         required
@@ -55,7 +55,7 @@ export default function BookingForm() {
         value={time}
         onChange={(event) => setTime(event.target.value)}
       />
-      <button className="contact-button" onClick={toggleBook}>
+      <button className="bookingForm-button" onClick={toggleBook}>
         Book
       </button>
     </form>

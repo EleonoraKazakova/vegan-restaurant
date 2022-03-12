@@ -1,7 +1,6 @@
 import "../styles/homePage.css";
 import DishData from "./DishData.json";
 import { useNavigate } from "react-router-dom";
-import "../styles/hero.css";
 
 export default function HomePage() {
   const history = useNavigate();
@@ -16,7 +15,7 @@ export default function HomePage() {
       <img
         src={require(`../pictures/homePage/${dish.dishImg}.jpg`)}
         className="homepage-image"
-        alt=""
+        alt={dish.altImg}
       />
       <span className="homepage-text-grid">
         <span className="homepage-text-content">
@@ -33,14 +32,18 @@ export default function HomePage() {
   ));
 
   return (
-    <main className="homepage-content">
-      <header className="hero-content">
+    <main className="homepage-content homepage-grid">
+      <header className="homepage-hero-content homepage-grid-hero">
         <section className="hero-content-block">
-          <h1 className="hero-title">Pepper</h1>
-          <h3 className="hero-title-text">We will open a new vegan world!</h3>
+          <h1 className="homepage-title">Pepper</h1>
+          <h3 className="homepage-title-text">
+            We will open a new vegan world!
+          </h3>
         </section>
       </header>
-      <section className="homepage-menu">{dataDish}</section>
+      <section className="homepage-menu homepage-grid-content">
+        {dataDish}
+      </section>
     </main>
   );
 }

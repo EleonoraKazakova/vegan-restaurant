@@ -5,9 +5,5 @@ export default function DishTable({ dishSection }) {
       <td className="dish-table-td">{fact[1]}</td>
     </tr>
   ));
-  return (
-    <div>
-      <table className="dish-table">{table}</table>
-    </div>
-  );
+  return <table className="dish-table">{table}</table>;
 }

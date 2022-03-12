@@ -1,6 +1,6 @@
 import "../styles/dish.css";
 import { useParams, useNavigate } from "react-router-dom";
-import HeroDish from "./HeroDish";
+import "../styles/heroDish.css";
 import "../styles/base/button.css";
 import DishTable from "./DishTable";
 import DishData from "./DishData.json";
@@ -13,14 +13,17 @@ export default function Dish() {
   }
   const dishSection = DishData[params.section][params.dish];
   return (
-    <section className="dish-content">
-      <HeroDish dish={dishSection.imgProject} />
-      <div className="dish-content-block">
+    <main className="dish-grid">
+      <header
+        className={`hero-dish-${dishSection.imgProject} hero-dish dish-grid-hero`}
+      ></header>
+
+      <section className=" dish-grid-content">
         <h2>{dishSection.title}</h2>
         <p className="dish-text">{dishSection.description}</p>
-        <div className="dish-ingredient">
+        <span className="dish-ingredient">
           {dishSection.ingredients.join(", ")}
-        </div>
+        </span>
         <h3>Nutrition Facts</h3>
         <DishTable dishSection={dishSection} />
         <button
@@ -29,7 +32,7 @@ export default function Dish() {
         >
           Go back
         </button>
-      </div>
-    </section>
+      </section>
+    </main>
   );
 }

@@ -4,7 +4,7 @@ import Logo from "../logo.svg";
 
 export default function Hero() {
   return (
-    <div className="bar-content">
+    <main className="bar-content">
       <Link to="/section/Dishes" className="bar-link">
         Dishes
       </Link>
@@ -20,6 +20,6 @@ export default function Hero() {
       <Link to="/contact" className="bar-link">
         Contact
       </Link>
-    </div>
+    </main>
   );
 }
