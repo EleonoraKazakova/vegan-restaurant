@@ -18,11 +18,11 @@ export default function Contact() {
   ));
 
   return (
-    <main className="contact-content text contact-grid">
-      <header className="contact-hero-content contact-grid-hero"></header>
+    <main>
+      <header className="contact-hero-content" />
       <section className="contact-grid-content">
-        <article className="contact-text-form">
-          <span>
+        <div className="contact-text-form">
+          <div>
             <h2>Opening hours</h2>
             <table className="contact-table">
               <tbody>{timeData}</tbody>
@@ -31,13 +31,11 @@ export default function Contact() {
             <table className="contact-table">
               <tbody>{address}</tbody>
             </table>
-          </span>
+          </div>
           <BookingForm />
-        </article>
+        </div>
 
-        <span className="contact-image">
-          <Map />
-        </span>
+        <Map />
       </section>
     </main>
   );

@@ -1,15 +1,6 @@
 @import "./base/swatches.css";
 @import "./base/variables.css";
 
-.app-grid {
-  display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: [section-menu]auto;
-  min-height: 100vh;
-}
-
 .app-content {
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
   background-color: white;
 }

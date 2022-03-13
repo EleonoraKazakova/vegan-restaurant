@@ -6,7 +6,6 @@
     width: 100%;
     background-color: #72717152;
     flex-direction: column;
-    justify-content: start;
     font-size: 12px;
   }
 
@@ -60,22 +59,6 @@
     width: 100%;
     background-color: #72717152;
     flex-direction: column;
-    justify-content: start;
-  }
-  .homepage-grid {
-    display: grid;
-    grid-template-columns: 50px auto 50px;
-    grid-template-rows: [section-hero]auto [section-menu]auto;
-    min-height: 100vh;
-  }
-
-  .homepage-grid-hero {
-    grid-column: 1 / 4;
-    grid-row: 1 / 2;
-  }
-  .homepage-grid-content {
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
   }
 
   .homepage-text-grid {
@@ -117,23 +100,6 @@
     width: 100%;
     background-color: #72717152;
     flex-direction: column;
-    justify-content: start;
-  }
-
-  .homepage-grid {
-    display: grid;
-    grid-template-columns: 100px auto 100px;
-    grid-template-rows: [section-hero]auto [section-menu]auto;
-    min-height: 100vh;
-  }
-
-  .homepage-grid-hero {
-    grid-column: 1 / 4;
-    grid-row: 1 / 2;
-  }
-  .homepage-grid-content {
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
   }
 
   .homepage-text-grid {
@@ -145,12 +111,10 @@
   .homepage-block {
     display: flex;
     align-items: center;
-    flex-direction: row;
   }
 
   .homepage-block-reverse {
     display: flex;
-    flex-flow: wrap;
     align-items: center;
     flex-direction: row-reverse;
   }
@@ -169,12 +133,9 @@
 
 .homepage-hero-content {
   background-image: url("../pictures/kimzy-nanney-LNDgBERq8Q0-unsplash.jpg");
-  background-position: absolute;
-  background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
   min-height: 100vh;
-  width: 100%;
   display: flex;
   color: rgb(242, 255, 213);
   align-items: center;
@@ -196,9 +157,6 @@
   padding: 40px 0 40px 0;
 }
 
-button {
-  border: none;
-}
 .homepage-button {
   background-color: var(--swatch-light-brown);
   color: var(--swatch-dark-brown);

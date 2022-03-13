@@ -25,7 +25,7 @@ export default function BookingForm() {
   return (
     <form className="bookingForm-form">
       <h3 className="bookingForm-form-title">Book a table</h3>
-      <label> Your Full Name</label>
+      <label>Your Full Name</label>
       <input
         required
         type="text"
@@ -33,7 +33,7 @@ export default function BookingForm() {
         placeholder="David"
         onChange={(event) => setName(event.target.value)}
       />
-      <label> Your Email address</label>
+      <label>Your Email address</label>
       <input
         required
         type="email"
@@ -41,14 +41,14 @@ export default function BookingForm() {
         placeholder="david@gmail.com"
         onChange={(event) => setEmail(event.target.value)}
       />
-      <label> Choose date</label>
+      <label>Choose date</label>
       <input
         required
         type="date"
         value={date}
         onChange={(event) => setDate(event.target.value)}
       />
-      <label> Choose time</label>
+      <label>Choose time</label>
       <input
         required
         type="time"

@@ -13,17 +13,15 @@ export default function Dish() {
   }
   const dishSection = DishData[params.section][params.dish];
   return (
-    <main className="dish-grid">
-      <header
-        className={`hero-dish-${dishSection.imgProject} hero-dish dish-grid-hero`}
-      ></header>
+    <main>
+      <header className={`hero-dish-${dishSection.imgProject} hero-dish`} />
 
       <section className=" dish-grid-content">
         <h2>{dishSection.title}</h2>
         <p className="dish-text">{dishSection.description}</p>
-        <span className="dish-ingredient">
+        <div className="dish-ingredient">
           {dishSection.ingredients.join(", ")}
-        </span>
+        </div>
         <h3>Nutrition Facts</h3>
         <DishTable dishSection={dishSection} />
         <button

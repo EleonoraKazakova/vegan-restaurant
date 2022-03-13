@@ -33,10 +33,13 @@
   width: 100px;
   color: white;
   margin-top: 10px;
-  cursor: pointer;
 }
 
 textarea:focus,
 input:focus {
   outline: none;
+}
+
+.bookingForm-form-title {
+  text-align: center;
 }

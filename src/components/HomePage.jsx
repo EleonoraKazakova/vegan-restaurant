@@ -17,8 +17,9 @@ export default function HomePage() {
         className="homepage-image"
         alt={dish.altImg}
       />
-      <span className="homepage-text-grid">
-        <span className="homepage-text-content">
+      <div className="homepage-text-grid">
+        <div className="homepage-text-content">
+          <h3>{dish.section}</h3>
           <p className="homepage-text">{dish.description}</p>
           <button
             className="homepage-button"
@@ -26,24 +27,22 @@ export default function HomePage() {
           >
             See more
           </button>
-        </span>
-      </span>
+        </div>
+      </div>
     </div>
   ));
 
   return (
-    <main className="homepage-content homepage-grid">
-      <header className="homepage-hero-content homepage-grid-hero">
-        <section className="homepage-content-block">
+    <main className="homepage-content">
+      <header className="homepage-hero-content">
+        <div className="homepage-content-block">
           <h1 className="homepage-title">Pepper</h1>
           <h3 className="homepage-title-text">
             We will open a new vegan world!
           </h3>
-        </section>
+        </div>
       </header>
-      <section className="homepage-menu homepage-grid-content">
-        {dataDish}
-      </section>
+      <section className="homepage-menu">{dataDish}</section>
     </main>
   );
 }

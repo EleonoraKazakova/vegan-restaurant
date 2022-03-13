@@ -10,15 +10,19 @@ export default function Section() {
     history(`/section/${params.section}/${dish}`);
   }
 
+  const sectionDescription = DishData.homePageDishes.find(
+    (homePagesection) => homePagesection.section === params.section
+  ).description;
+
   const dishSection = Object.values(DishData[params.section]).map((dish) => (
-    <section key={dish.id} className="section-content">
+    <div key={dish.id} className="section-content">
       <img
         src={require(`../pictures/${params.section}/${dish.imgProject}.jpg`)}
         className="section-image"
         alt=""
       />
-      <span className="section-text-grid">
-        <span className="section-text-content">
+      <div className="section-text-grid">
+        <div className="section-text-content">
           <h4>{dish.title}</h4>
           <p className="section-text">{dish.description}</p>
           <button
@@ -27,19 +31,19 @@ export default function Section() {
           >
             See more
           </button>
-        </span>
-      </span>
-    </section>
+        </div>
+      </div>
+    </div>
   ));
 
   return (
-    <main className="section-grid">
-      <header
-        className={`section-${params.section} section-hero section-grid-hero`}
-      ></header>
+    <main>
+      <header className={`section-${params.section} section-hero`}>
+        <h1 className="section-content-block">{params.section}</h1>
+      </header>
       <section className="section-grid-content">
-        <h1 className="section-title">{params.section}</h1>
-        <span className="section-menu ">{dishSection}</span>
+        <p className="section-description">{sectionDescription}</p>
+        <div className="section-menu ">{dishSection}</div>
       </section>
     </main>
   );
