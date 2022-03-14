@@ -22,16 +22,15 @@ export default function Contact() {
       <header className="contact-hero-content" />
       <section className="contact-grid-content">
         <div className="contact-text-form">
-          <div>
-            <h2>Opening hours</h2>
-            <table className="contact-table">
-              <tbody>{timeData}</tbody>
-            </table>
-            <h4>Address</h4>
-            <table className="contact-table">
-              <tbody>{address}</tbody>
-            </table>
-          </div>
+          {/* Unnecesary tag -1 Whatever you are using this div, can be applied directly to the table */}
+          <h2>Opening hours</h2>
+          <table className="contact-table">
+            <tbody>{timeData}</tbody>
+          </table>
+          <h4>Address</h4>
+          <table className="contact-table">
+            <tbody>{address}</tbody>
+          </table>
           <BookingForm />
         </div>
 

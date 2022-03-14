@@ -3,6 +3,7 @@ import "../styles/base/button.css";
 import { useParams, useNavigate } from "react-router-dom";
 import DishData from "./DishData.json";
 
+// Same as Home.jsx -1
 export default function Section() {
   const params = useParams();
   const history = useNavigate();
@@ -14,6 +15,7 @@ export default function Section() {
     (homePagesection) => homePagesection.section === params.section
   ).description;
 
+  // Same as Home.jsx with DishItem -1
   const dishSection = Object.values(DishData[params.section]).map((dish) => (
     <div key={dish.id} className="section-content">
       <img

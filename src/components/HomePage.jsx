@@ -2,11 +2,19 @@ import "../styles/homePage.css";
 import DishData from "./DishData.json";
 import { useNavigate } from "react-router-dom";
 
+// Component lenght -1
+/**
+ * Note, your component was 49 under the limit, but when dataDish (should be DataDish, uppercase) is 23 lines long, it should be a separate React component.
+ */
 export default function HomePage() {
   const history = useNavigate();
   function toggleSection(section) {
     history(`/section/${section}`);
   }
+
+  // Function length -1
+  // No function should be longer than 12 lines, this should be a separate React component
+  // Extra, if you refactor this, you can start using destructuring for the id, dishImg, description, section etc and make it look cleaner
   const dataDish = DishData.homePageDishes.map((dish, index) => (
     <div
       key={dish.id}

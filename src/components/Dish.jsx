@@ -8,12 +8,17 @@ import DishData from "./DishData.json";
 export default function Dish() {
   const params = useParams();
   const history = useNavigate();
+
   function toggleSection(section) {
     history(`/section/${section}`);
   }
+
   const dishSection = DishData[params.section][params.dish];
   return (
     <main>
+      {/* Ok this one took me a couple of seconds to understand. */}
+      {/* You can use the img tag inside the header to align  the image instead of using background-image property */}
+      {/* This would make the code more explicit and easy to understand */}
       <header className={`hero-dish-${dishSection.imgProject} hero-dish`} />
 
       <section className=" dish-grid-content">

@@ -3,6 +3,7 @@ import LogoInstagram from "../pictures/instagram-brands.svg";
 import LogoFacebook from "../pictures/facebook-brands.svg";
 import { ExternalLink } from "react-external-link";
 
+// good
 export default function Footer() {
   return (
     <footer className="footer-content">
